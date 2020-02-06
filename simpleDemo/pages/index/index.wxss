@@ -1,4 +1,27 @@
 /**index.wxss**/
-text-label{
-  margin-top:200px
+.page{
+  flex : 1;
+  background-color: #ffff00;
+  font-size: 16px;
+}
+
+.page-section{
+  padding:10px;
+  background-color: #fffff0;
+  margin: 10px;
+  font-size:16px;
+}
+
+.flex-item{
+  width : 50px;
+  height:100px;
+}
+.bc_green{
+  background-color:#00ff00;
+}
+.bc_red{
+  background-color:#ff0000;
+}
+.bc_blue{
+  background-color:#0000ff;
 }

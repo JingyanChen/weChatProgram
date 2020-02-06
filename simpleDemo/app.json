@@ -7,6 +7,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "hello world new",
     "navigationBarTextStyle": "black"
-
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
