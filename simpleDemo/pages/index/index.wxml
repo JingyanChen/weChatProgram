@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <text class= "text-label">
+  {{mytext}}
+  </text>
+</view>
