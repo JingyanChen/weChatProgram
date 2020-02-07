@@ -1,6 +1,11 @@
 <!--index.wxml-->
 <view class = "container">
-  <text class = "text-label">
-  {{mytext}}
-  </text>
+  <view>{{clickMsg}}</view>
+
+  <view class="view-item" id = 'view0' bindtap="clickMe">点击view0</view>
+  <view class="view-item" id = 'view1' bindtap="clickMe">点击view1</view>
+  <button size = mini>anniu</button>
+  <button size = mini type = "warn">anniu</button>
+  <button size = mini type = "warn" plain="true">anniu</button>
+  <button size = mini type = "warn" plain="true" loading = "true" bindtap = "doloading" id = "button" data-hi = "hidata" data-qf = "qf-data">anniu</button>
 </view>
